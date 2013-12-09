@@ -1,14 +1,12 @@
 <?php
-/**
-* 
-*/
+
 class RomanNumbers
 {
     function ConvertToRoman($arabic)
     {
-	$result = '';
-	
-	if($arabic >= 50)
+      $result = '';
+	  
+     <if($arabic >= 50)
 	{
 		$result = 'L';
 		$arabic -= 50;
