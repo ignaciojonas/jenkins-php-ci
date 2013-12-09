@@ -4,10 +4,10 @@
 */
 class RomanNumbers
 {
-function newMethod()
-{
-	return true;
-}
+	function newMethod()
+	{
+		return true;
+	}
     function ConvertToRoman($arabic)
     {
 	$result = '';
