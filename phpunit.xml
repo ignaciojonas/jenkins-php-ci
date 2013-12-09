@@ -1,4 +1,4 @@
-<phpunit backupGlobals="true"
+<phpunit backupGlobals="true" 
          backupStaticAttributes="false"
          cacheTokens="false"
          colors="true"
