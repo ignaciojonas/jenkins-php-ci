@@ -4,11 +4,6 @@
 */
 class RomanNumbers
 {
-	function newMethod()
-	{
-		$longVar = "lsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas daslsdasdasd sdas das";
-		return true;
-	}
     function ConvertToRoman($arabic)
     {
 	$result = '';
