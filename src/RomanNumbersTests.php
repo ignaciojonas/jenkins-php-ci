@@ -7,94 +7,94 @@ class RomanNumbersTests extends PHPUnit_Framework_TestCase
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(1);
-		$this->assertEquals($result, "I");
+        $this->assertEquals($result, "I");
     }
-	
-	   public function testCovertToRoman2ReturnII()
+    
+       public function testCovertToRoman2ReturnII()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(2);
-		$this->assertEquals($result, "II");
+        $this->assertEquals($result, "II");
     }
-	
-	public function testCovertToRoman3ReturnIII()
+    
+    public function testCovertToRoman3ReturnIII()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(3);
-		$this->assertEquals($result, "III");
+        $this->assertEquals($result, "III");
     }
-	
-	public function testCovertToRoman4ReturnIV()
+    
+    public function testCovertToRoman4ReturnIV()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(4);
-		$this->assertEquals($result, "IV");
+        $this->assertEquals($result, "IV");
     }
-	
-	public function testCovertToRoman5ReturnV()
+    
+    public function testCovertToRoman5ReturnV()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(5);
-		$this->assertEquals($result, "V");
+        $this->assertEquals($result, "V");
     }
-	
-	public function testCovertToRoman6ReturnVI()
+    
+    public function testCovertToRoman6ReturnVI()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(6);
-		$this->assertEquals($result, "VI");
+        $this->assertEquals($result, "VI");
     }
-	
-	public function testCovertToRoman8ReturnVIII()
+    
+    public function testCovertToRoman8ReturnVIII()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(8);
-		$this->assertEquals($result, "VIII");
+        $this->assertEquals($result, "VIII");
     }
-	public function testCovertToRoman9ReturnIX()
+    public function testCovertToRoman9ReturnIX()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(9);
-		$this->assertEquals($result, "IX");
+        $this->assertEquals($result, "IX");
     }
-	
-	public function testCovertToRoman10ReturnX()
+    
+    public function testCovertToRoman10ReturnX()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(10);
-		$this->assertEquals($result, "X");
+        $this->assertEquals($result, "X");
     }
-	
-	public function testCovertToRoman14ReturnXIV()
+    
+    public function testCovertToRoman14ReturnXIV()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(14);
-		$this->assertEquals($result, "XIV");
+        $this->assertEquals($result, "XIV");
     }
-	
-	public function testCovertToRoman15ReturnXV()
+    
+    public function testCovertToRoman15ReturnXV()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(15);
-		$this->assertEquals($result, "XV");
+        $this->assertEquals($result, "XV");
     }
-	
-	public function testCovertToRoman19ReturnXIX()
+    
+    public function testCovertToRoman19ReturnXIX()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(19);
-		$this->assertEquals($result, "XIX");
+        $this->assertEquals($result, "XIX");
     }
-	
-	
-	public function testCovertToRoman50ReturnL()
+    
+    
+    public function testCovertToRoman50ReturnL()
     {
         $romanConverter = new RomanNumbers();
         $result = $romanConverter->ConvertToRoman(50);
-		$this->assertEquals($result, "L");
+        $this->assertEquals($result, "L");
     }
-	
-	
+    
+    
 }
-	
+    
 ?>
