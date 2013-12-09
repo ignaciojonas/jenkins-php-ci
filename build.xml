@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="RomanKata" default="build">
+<project name="RomanNumbers" default="build">
  <target name="build"
    depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,phpcb"/>
 
@@ -41,12 +41,12 @@
   <apply executable="php" failonerror="true">
    <arg value="-l" />
 
-   <fileset dir="${basedir}/RomanNumbers">
+   <fileset dir="${basedir}/src">
     <include name="**/*.php" />
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/RomanNumbers">
+   <fileset dir="${basedir}/src">
     <include name="**/*.php" />
     <modified />
    </fileset>
