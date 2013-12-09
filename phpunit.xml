@@ -22,12 +22,12 @@
   
   <testsuites>
     <testsuite name="RomanNumbers">
-      <file>RomanNumbersTests.php</file>
+      <file>./src/RomanNumbersTests.php</file>
     </testsuite>
   </testsuites>
 
   <logging>
-    <log type="coverage-html" target="build/coverage" title="BankAccount"
+    <log type="coverage-html" target="build/coverage" title="Roman Numbers"
          charset="UTF-8" yui="true" highlight="true"
          lowUpperBound="35" highLowerBound="70"/>
     <log type="coverage-clover" target="build/logs/clover.xml"/>
