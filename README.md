@@ -1,5 +1,4 @@
-[![Build Status](http://192.168.1.42:8080/job/Jenkins%20Test/badge/icon)](http://192.168.1.42:8080/job/Jenkins%20Test/)
-
+[![Build Status](http://192.168.1.42:8080/buildStatus/icon?job=Jenkins Test)](http://192.168.1.42:8080/job/Jenkins%20Test/)
 jenkins-php-ci
 ==============
 
