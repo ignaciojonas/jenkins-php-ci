@@ -2,6 +2,11 @@
 
 class RomanNumbers
 {
+
+function nueva()
+{
+return 1;
+}
     function ConvertToRoman($arabic)
     {
       $result = '';
